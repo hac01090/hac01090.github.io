@@ -151,7 +151,7 @@ header {
 	justify-content: center;
 	height: 100vh;
 	min-height: 450px;
-	background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(images/main_image01.jpg);
+	background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(/main_image01.jpg);
 	background-position: center;
 	background-size: cover;
 	color: #fff;
@@ -231,7 +231,7 @@ header {
 
 	.conA .photo {
 		min-height: 400px;
-		background-image: url(images/Alcoholics2.jpeg);
+		background-image: url(/Alcoholics2.jpeg);
 		background-position: center;
 		background-size: cover;
 	}
@@ -280,7 +280,7 @@ header {
 		
 		.conB .photo {
 			min-height: 400px;
-			background-image: url(images/Alcoholics1.jpeg);
+			background-image: url(/Alcoholics1.jpeg);
 			background-position: center;
 			background-size: cover;
 		}
@@ -335,7 +335,7 @@ header {
 		
 		.conC .photo {
 			min-height: 400px;
-			background-image: url(images/meeting1.jpeg);
+			background-image: url(/meeting1.jpeg);
 			background-position: center;
 			background-size: cover;
 		}
@@ -384,7 +384,7 @@ header {
 		
 		.conD .photo {
 			min-height: 400px;
-			background-image: url(images/meeting2.jpeg);
+			background-image: url(/meeting2.jpeg);
 			background-position: center;
 			background-size: cover;
 		}
@@ -498,7 +498,6 @@ header {
 		footer .container {
 			flex-wrap: wrap;
 			max-width: 1000px;
-			max-width: var(--large-width);
 			margin-left: auto;
 			margin-right: auto;
 		}
