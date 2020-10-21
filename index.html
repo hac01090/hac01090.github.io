@@ -1,90 +1,174 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Progate</title>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+<meta charset="UTF-8">
+<title>AA大和グループ</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+<style>
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	border: 0;
+}
+</style>
+
+<script src="https://use.fontawesome.com/926fe18a63.js"></script>
+
+<script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+<script>
+$(function(){
+	$(".headC").click(function(){
+		$(".headB").slideToggle();
+	});
+});
+</script>
 </head>
 <body>
-  <header>
-    <div class="container">
-      <div class="header-left">
-        <img class="logo" src="https://prog-8.com/images/html/advanced/main_logo.png">
-      </div>
-      <span class="fa fa-bars menu-icon"></span>
-      <div class="header-right">
-        <a href="#">レッスン</a>
-        <a href="#">新規登録</a>
-        <a href="#" class="login">ログイン</a>
-      </div>
-    </div>
-  </header>
-  <div class="top-wrapper">
-    <div class="container">
-      <h1>LEARN TO CODE.<br>LEARN TO BE CREATIVE.</h1>
-      <p>Progateはオンラインプログラミング学習サービスです。<br>初心者にもやさしいスライドとレッスンで、ウェブサービスを作りながらプログラミングを学んでいきましょう。</p>
-      <div class="btn-wrapper">
-        <a href="#" class="btn signup">新規登録はこちら</a>
-        <p>or</p>
-        <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Facebookで登録</a>
-        <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Twitterで登録</a>
-      </div>
-    </div>
-  </div>
-  <div class="lesson-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>Learn Where to Get Started!</h2>
-      </div>
-      <div class="lessons">
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/html.png">
-            <p>HTML & CSS</p>
-          </div>
-          <p class="text-contents">ウェブページの作成に使用される言語です。HTMLとCSSを組み合わせることで、静的なページを作り上げることができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/jQuery.png">
-            <p>jQuery</p>
-          </div>
-          <p class="text-contents">素敵な動きを手軽に実装できるJavaScriptライブラリです。 アニメーション効果をつけたり、Ajax（エイジャックス）を使って外部ファイルを読み込んだりと色々なことができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/ruby.png">
-            <p>Ruby</p>
-          </div>
-          <p class="text-contents">オープンソースの動的なプログラミング言語で、 シンプルさと高い生産性を備えています。大きなWebアプリケーションから小さな日用ツールまで、さまざまなソフトウェアを作ることができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/php.png">
-            <p>PHP</p>
-          </div>
-          <p class="text-contents">HTMLだけではページの内容を変えることはできません。PHPはHTMLにプログラムを埋め込み、それを可能にします。</p>
-        </div>
-      </div>
-      <div class="clear"></div>
-    </div>
-  </div>
-  <div class="message-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>さぁ、あなたもProgateでプログラミングを学んでみませんか?</h2>
-        <h3>Let's learn to code, learn to be creative!</h3>
-      </div>
-      <span class="btn message">さっそく開発する</span>
-    </div>
-  </div>
-  <footer>
-    <div class="container">
-      <img src="https://prog-8.com/images/html/advanced/footer_logo.png">
-      <p>Learn to Code, Learn to be Creative.</p>
-    </div>
-  </footer>
+
+<header>
+<div class="container">
+	<div class="container-small">
+		<div class="header_logo">
+			<img src="images/aalogo.gif">
+			<div class = "headA">
+				<a href="index.html" >AA大和グループ</a>
+				<p>アルコール依存症からの回復</p>
+			</div>
+		</div>
+		<button type="button" class="headC">
+			<span class="fa fa-bars" title="MENU"></span>
+		</button>
+	</div>
+
+	<nav class="headB">
+		<ul>
+			<li><a href="index.html">トップ</a></li>
+			<li><a href="#contents">コンテンツ</a></li>
+			<li><a href="#access">アクセス</a></li>
+			<li><a href="#contact">お問い合わせ</a></li>
+		</ul>
+	</nav>
+</div>
+</header>
+
+<section class="hero">
+<div class="container">
+	<h1>アルコール依存症は回復できる病気です</h1>
+	<p>仲間と一緒に飲まない生活を始めてみませんか？</p>
+</div>
+</section>
+
+<section id=contents>
+
+	<section class="conA">
+		<div class="container">
+			<div class="photo"></div>
+			<div class="text">
+				<h2>アルコール依存症とは？</h2>
+				<p>お酒の飲み方（飲む量、飲むタイミング、飲む状況）を自分の力でコントロールできなくなり、
+					飲酒が手段から目的に変わってしまった状態のことをいいます。飲むのはよくないことだとわかっていても、
+					脳に異常が起きて飲むことをやめられなくなります。</p>
+				</div>
+			</div>
+		</section>
+		
+		<section class="conB">
+			<div class="container">
+				<div class="photo"></div>
+				<div class="text">
+					<h2>AA（アルコホーリクス・アノニマス）とは？</h2>
+					<p>飲酒を止めたくても止められず苦しんでいる方々で、飲まない生活を送りたいと願っている方々の自助グループです。
+						ＡＡのメンバーになるために必要なことは、飲酒をやめたいという願いだけです。会費や料金は必要ありません。</p>
+					</div>
+				</div>
+			</section>
+			
+			<section class="conC">
+				<div class="container">
+					<div class="photo"></div>
+					<div class="text">
+						<h2>ミーティングについて</h2>
+						<p>週2回メンバーが集ってミーティングを開催しています。
+							ミーティングでは、過去飲酒で苦しかった経験と、現在飲まない生活を手にいれ、どのように過ごしているかを話します。
+							言いっぱなし、聞きっぱなしのスタイルです。
+							また、自分の氏名等プライバシーを明かす必要もありません。</p>
+						</div>
+					</div>
+				</section>
+				
+				<section class="conD">
+					<div class="container">
+						<div class="photo"></div>
+						<div class="text">
+							<h2>開催日時</h2>
+							<p>桜ヶ丘会場 木曜日 19:00〜20:30<br>
+								瀬谷会場 土曜日 19:00〜20:30
+							</p>
+						</div>
+					</div>
+				</section>
+				
+			</section>
+
+
+			<section id=access>
+				<div class="container">
+					<article class="access-map">		
+						<h1>ミーティング会場案内</h1>
+						<div class="access-wrap">
+							<aside class="location">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3250.1614937443605!2d139.46049981519502!3d35.450796150182754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018568bc5856af1%3A0xbf0ce379f59417cd!2z44CSMjQyLTAwMjQg56We5aWI5bed55yM5aSn5ZKM5biC56aP55Sw77yR5LiB55uu77yT77yQ4oiS77ySIOWkp-WSjOW4guahnOS4mOWtpue_kuOCu-ODs-OCv-ODvA!5e0!3m2!1sja!2sjp!4v1599790421537!5m2!1sja!2sjp" width="600" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+								<p>桜ヶ丘会場<br>
+									神奈川県大和市福田１−３０ー１<br>
+									大和市桜丘学習センター<br>
+									毎週木曜日 時間：19:00〜20:30
+								</p>
+							</aside>
+							<aside class="location">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3249.5264511029827!2d139.48471031519549!3d35.466516349325076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60185654ce8c63a3%3A0x23cd7d5a24ce8111!2z54Cs6LC35Zyw5Yy644K744Oz44K_44O8!5e0!3m2!1sja!2sjp!4v1599790489134!5m2!1sja!2sjp" width="600" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+								<p>
+									瀬谷会場<br>
+									神奈川県横浜市瀬谷区瀬谷３−１８−１<br>
+									瀬谷地区センター<br>
+									毎週土曜日 時間：19:00〜20:30
+								</p>
+							</aside>
+						</div>
+					</article>
+					</div>		
+				</section>
+
+
+<footer>
+<div class="container">
+	<section id=contact>
+		<div class="footA">
+			<h2>お問い合わせ</h2>
+			<p>
+				中止・変更の場合がありますので、詳細はAA関東甲信越<br>
+				セントラルオフィスまで、お問い合わせください。<br>
+				開催会場への直接のお問い合わせはご遠慮ください。<br>
+				TEL 03-5957-3506 / FAX 03-5957-3507<br>
+				(受付時間 平日10:00〜19:00)<br>
+				<a href="http://aa-kkse.net/">http://aa-kkse.net/</a>
+			</p>
+			
+			<div class="footC">
+				Copyright ©️ 2020 AA yamato group All Rights Reserved.
+			</div>
+			
+		</section>
+</div>
+</footer>
+
+
 </body>
-</html
+</html>
